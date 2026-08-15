@@ -1,0 +1,35 @@
+{
+  "name": "shop-good",
+  "version": "1.0.0",
+  "description": "Shop Good - Premium E-commerce Platform",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "paystack": "^2.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ecommerce",
+    "shop",
+    "paystack",
+    "firebase",
+    "vercel"
+  ],
+  "author": "Shop Good",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jesseegwuatu/shop-good.git"
+  }
+}
